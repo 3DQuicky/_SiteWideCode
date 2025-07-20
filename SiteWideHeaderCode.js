@@ -1,4 +1,3 @@
-<script>
 // GoHighLevel FAQ Element Enhancer
 // Configuration Variables
 const HL_FAQ_CHILD_HEADING_THUMB_WIDTH = 30;
@@ -303,6 +302,6 @@ window.GoHighLevelFAQEnhancer = {
     enhance: enhanceGoHighLevelFAQs,
     enhanceElement: enhanceFAQElement
 };
-</script>
+
 
 
