@@ -295,6 +295,8 @@ function openImagePopup(url) {
     document.body.appendChild(overlay);
 }
 
+
+
 // Export functions for manual use if needed
 window.GoHighLevelFAQEnhancer = {
     enhance: enhanceGoHighLevelFAQs,
