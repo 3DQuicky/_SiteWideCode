@@ -1,0 +1,75 @@
+h1 {
+text-shadow:rgba(10, 189, 240, 0.298039) 3px 3px 0px, rgba(254, 1, 1, 0.298039) -3px -3px 0px;
+}
+.hl-faq-child {
+    border: 0px solid red !important;
+}
+.hl-faq-child-heading {
+    padding: 1px;
+    border: 1px solid #00DDDD;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    border-bottom-left-radius: 11px;
+    border-bottom-right-radius: 11px;
+}
+.hl-faq-child-heading.active {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.hl-faq-child-panel {
+    padding: 22px;
+    border: 1px solid #00DDDD;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 11px;
+    border-bottom-right-radius: 11px;
+}
+
+
+
+
+.windows-apps-div { display: none; }
+.windows-apps-title { display: none; }
+.windows-settings-div { display: none; }
+.windows-settings-title { display: none; }
+.browser-addons-div { display: none; }
+.browser-addons-title { display: none; }
+.custom-select {
+    display: block;
+    border: 1px solid #00DDDD;
+    border-radius: 4px;
+    color: #00DDDD;
+    font-family: Arial, sans-serif;
+    background: transparent;
+    padding: 8px 30px 8px 8px; /* Added padding on the right for the arrow */
+    outline: none;
+    cursor: pointer;
+    position: relative; /* Required for the pseudo-element */
+}
+.custom-select::after {
+    content: '▼'; /* Unicode for a downward arrow, you can use other symbols or an image */
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #00DDDD;
+    pointer-events: none; /* Ensures the arrow doesn't interfere with clicks */
+}
+.custom-select option {
+    color: #00DDDD;
+    background: transparent;
+    background-color: #002222;
+    border: 1px solid #00DDDD;
+}
+.custom-select option:focus {
+    color: #FFFFFF;
+    background-color: #004444;
+}
+.custom-input {
+    border: 1px solid #00DDDD;
+    border-radius: 4px;
+    color: #00DDDD;
+    font-family: Arial, sans-serif;
+    background: transparent;
+    padding: 8px;
+}
