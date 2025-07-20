@@ -1,2 +1,2 @@
-# _SiteWideHeaderCode
+# _SiteWideCode
 Sites >> Websites >> Settings >> Head Tracking Code
