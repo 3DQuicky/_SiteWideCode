@@ -2,6 +2,7 @@ h1 {
 	text-shadow:rgba(10, 189, 240, 0.298039) 3px 3px 0px, rgba(254, 1, 1, 0.298039) -3px -3px 0px;
 }
 
+/* Chat Widget Border Colors */
 .lc_text-widget--prompt.inline-prompt,
 .lc_text-widget--bubble.inline {
 	border: 1px solid #00DDDD;
