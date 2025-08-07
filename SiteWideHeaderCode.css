@@ -5,7 +5,7 @@ h1 {
 /* Chat Widget Border Colors */
 .lc_text-widget--prompt.inline-prompt,
 .lc_text-widget--bubble.inline {
-	border: 1px solid #00DDDD;
+	border: 1px solid #0DD !important;
 }
 
 .hl-faq-child {
