@@ -3,8 +3,8 @@ h1 {
 }
 
 /* Chat Widget Border Colors */
-.lc_text-widget--prompt.inline-prompt,
-.lc_text-widget--bubble.inline {
+.lc_text-widget--prompt,
+.lc_text-widget--bubble {
 	border: 1px solid #0DD !important;
 }
 
